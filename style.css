@@ -1,0 +1,125 @@
+body {
+    background-color:#05040A;
+    font-family: 'Comfortaa', cursive;
+    color: #D2CCE5;
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: fixed;
+}
+nav {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a {
+    color: #D2CCE5 ;
+    text-decoration: none;
+    font-weight: 300;
+}
+nav a:hover {
+    color: #b225ce;
+    transition: .5s;
+}
+.nav-inicio {
+    color: #5732c4;
+    font-size: 18px;
+    font-weight: 700;
+}
+.inicio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-inicio {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contenedor-inicio h1 {
+    padding-top: 10px;
+}
+.contenedor-inicio h2 {
+    color: #5732c4;
+    font-size: 20px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.img-border {
+    border-image-slice: 1;
+    background:linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%) ;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    padding: 3px;
+}
+.img-perfil {
+    width: 240px;
+    height: 240px;
+    padding: 0px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+.fav-btn {
+    background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);
+    width: 120px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #d2cce5;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    padding-top: 12px;
+}
+.fav-btn:hover {
+    background:#05040A;
+    border: 1px solid ;
+    transition: 0.5s;
+}
+
+.module-border-wrap {
+    width: 120px;
+    height: 150px;
+    padding: 3px;
+    border-image-slice: 1;
+    background:linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%) ;
+    border-radius: 5px;
+}
+.module {
+    background: #05040A;
+    padding: 2px;
+    width: 115px;
+    height: 145px;
+    border-radius: 5px;
+}
+.contendedor-proyectos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media  only screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+    
+}
