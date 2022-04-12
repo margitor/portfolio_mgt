@@ -97,7 +97,7 @@ nav a:hover {
 .sobre-mi {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     padding-left: 50px;
 }
 .sobre-mi h2 {
