@@ -126,7 +126,7 @@ nav a:hover {
 .proyectos {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     padding-left: 50px;
     margin-top: 50px;
     padding-right: 50px;
