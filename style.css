@@ -12,6 +12,7 @@ header {
     justify-content: flex-end;
     flex-wrap: wrap;
     position: fixed;
+    background: #05040A;
 }
 nav {
     display: flex;
@@ -74,7 +75,6 @@ nav a:hover {
     height: 240px;
     padding: 0px;
     border-radius: 50%;
-    filter: grayscale(100%);
 }
 .fav-btn {
     background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);
@@ -129,6 +129,7 @@ nav a:hover {
     height: 100vh;
     padding-left: 50px;
     margin-top: 50px;
+    padding-right: 50px;
 }
 .contendedor-proyectos {
     max-width: 90%;
@@ -141,24 +142,46 @@ nav a:hover {
     color: #5732c4;
 }
 .module-border-wrap {
-    width: 120px;
-    height: 150px;
+    width: 200px;
+    height: 300px;
     padding: 3px;
     border-image-slice: 1;
     background:linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%) ;
     border-radius: 5px;
-    margin: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
 }
 .module {
     background: #05040A;
-    padding: 2px;
-    width: 115px;
-    height: 145px;
+    width: 200px;
+    height: 300px;
     border-radius: 5px;
 }
-
-
-
+.img-proyecto img {
+    width: 175px;
+    height: 120px ;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.module h4 {
+    text-align: center;
+}
+.contenedor-titulo-proyecto {
+    width: 175px;
+    height: 65px;
+    margin-left: 10px;
+}
+a img {
+    width: 65px;
+    height: 25px;
+    margin-left: 65px;
+    margin-bottom: 6px;
+}
+.url-proyecto {
+    margin-left: 40px;
+}
 @media  only screen and (max-width: 768px) {
     nav {
         width: 100%;
