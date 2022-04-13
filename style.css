@@ -112,17 +112,22 @@ nav a:hover {
 .contenedor-sobre-mi p {
     padding-bottom: 16px;
 }
-.contenedor-certificados {
-    width: 90%;
-}
-.contenedor-certificados li a {
+.fav-btn-2 {
+    background:#05040A;
+    border: 1px solid #d2cce5;
+    /*background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);*/
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
     color: #b225ce;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
 }
-.contenedor-certificados ul {
-    margin: 0;
-    padding: 17px;
-    line-height: 25px;
-}
+
 .proyectos {
     display: flex;
     flex-direction: column;
@@ -181,6 +186,45 @@ a img {
 }
 .url-proyecto {
     margin-left: 40px;
+}
+.contacto {
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.contacto h2 {
+    color: #5732c4;
+    font-size: 24px;
+}
+.contenedor-btn {
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-contacto {
+    background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);
+    min-width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #d2cce5;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
 }
 @media  only screen and (max-width: 768px) {
     nav {
