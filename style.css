@@ -136,8 +136,9 @@ nav a:hover {
     margin-top: 50px;
     padding-right: 50px;
 }
+
 .contendedor-proyectos {
-    max-width: 90%;
+    max-width: 800px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -194,7 +195,6 @@ a img {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    margin-left: 10px;
 }
 .contacto h2 {
     color: #5732c4;
@@ -210,7 +210,7 @@ a img {
 }
 .btn-contacto {
     background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);
-    min-width: 150px;
+    min-width: 159px;
     height: 30px;
     border-radius: 6px;
     font-size: 16px;
@@ -231,4 +231,9 @@ footer {
         width: 100%;
     }
     
+}
+@media  only screen and (max-width: 1440px) {
+    .contendedor-proyectos {
+        max-width: 100%;
+    }
 }
