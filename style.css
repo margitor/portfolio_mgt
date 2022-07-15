@@ -103,6 +103,12 @@ nav a:hover {
 .sobre-mi h2 {
     color: #5732c4;
 }
+.sobre-mi h3 {
+    color: #b225ce;
+}
+.sobre-mi p {
+    line-height: 25px;
+}
 .contenedor-sobre-mi {
     max-width: 90%;
 }
@@ -127,7 +133,25 @@ nav a:hover {
     padding-top: 12px;
     text-align: center;
 }
-
+.container-btn {
+    display: flex;
+    justify-content: space-around;
+}
+.fav-btn-3 {
+    background:#05040A;
+    border: 1px solid #d2cce5;
+    /*background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);*/
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #5732c4;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
+}
 .proyectos {
     display: flex;
     flex-direction: column;
