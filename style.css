@@ -134,8 +134,9 @@ nav a:hover {
     text-align: center;
 }
 .container-btn {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .fav-btn-3 {
     background:#05040A;
@@ -151,6 +152,7 @@ nav a:hover {
     text-decoration: none;
     padding-top: 12px;
     text-align: center;
+    margin-left: 20px;
 }
 .proyectos {
     display: flex;
