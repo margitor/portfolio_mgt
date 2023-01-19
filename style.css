@@ -236,7 +236,7 @@ a img {
 }
 .btn-contacto {
     background: linear-gradient(90deg, rgba(87,50,196,1) 15%, rgba(178,37,206,1) 64%);
-    min-width: 180px;
+    min-width: 190px;
     height: 30px;
     border-radius: 6px;
     font-size: 16px;
